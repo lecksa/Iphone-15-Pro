@@ -1,7 +1,7 @@
-let img1 = document.querySelector('.1')
-let img2 = document.querySelector('.2')
-let img3 = document.querySelector('.3')
-let img4 = document.querySelector('.4')
+let img1 = document.querySelector('.one')
+let img2 = document.querySelector('.two')
+let img3 = document.querySelector('.three')
+let img4 = document.querySelector('.four')
 
 let text = document.querySelector('h3')
 
