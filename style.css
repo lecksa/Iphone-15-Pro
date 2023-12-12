@@ -200,6 +200,20 @@ body {
     top: 60px;
 }
 
+/* .gallery img {
+    background-image: url(./img/all.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+    width: 800px;
+    height: 400px;
+} */
+
+.active {
+    border: 5px solid rgb(94, 94, 216) !important;
+}
+
 .first h2 {
     font-size: 24px;
     line-height: 1.16667;
@@ -297,7 +311,6 @@ body {
     margin-bottom: 13px;
 }
 
-
 .btns {
     padding-top: 15px;
     padding-bottom: 11px;
@@ -361,8 +374,6 @@ body {
 .third {
     margin: 10px 0px max(40px, (50vh - 54.5px) - 294.5px);
 }
-
-
 
 .rd_items {
     display: flex;
