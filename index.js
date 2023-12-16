@@ -64,12 +64,16 @@ let ter_btn_2 = document.querySelector('#ter_btn_2')
 // let info_btns = document.querySelectorAll('.info_btn')
 // let ter_btns = document.querySelectorAll('#ter_btn')
 
+let path = document.querySelectorAll('.path')
+
 
 in_btn.onclick = () => {
     ter_btn.classList.toggle('active_button')
+    path.classList.add('act_2')
 }
 
 in_btn_2.onclick = () => {
    ter_btn_2.classList.toggle('active_button')
+   path.classList.add('act_2')
 }
 
